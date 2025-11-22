@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LONG_POSITION_OPTIMAL 실적 기반 적응형 포지션 시스템</title>
+    <title>SHORT_POSITION_OPTIMAL 실적 기반 적응형 포지션 시스템</title>
     <script src="https://s3.tradingview.com/tv.js"></script>
     <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
     <style>
@@ -63,7 +63,7 @@
             font-size: 1.1rem;
         }
 
-                .nav-menu {
+        .nav-menu {
             background: var(--card-bg);
             border-radius: 15px;
             padding: 1.5rem;
@@ -115,7 +115,7 @@
         }
 
         .position-banner {
-            background: linear-gradient(135deg, #dc3545, #dc3545dd);
+            background: linear-gradient(135deg, #28a745, #28a745dd);
             color: white;
             padding: 2rem;
             border-radius: 15px;
@@ -480,8 +480,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🔄 LONG_POSITION_OPTIMAL 실적 기반 적응형 포지션 시스템</h1>
-            <div class="subtitle">LONG_POSITION_OPTIMAL 실적 기반  • 2025-11-22 16:34:34</div>
+            <h1>🔄 SHORT_POSITION_OPTIMAL 실적 기반 적응형 포지션 시스템</h1>
+            <div class="subtitle">SHORT_POSITION_OPTIMAL 실적 기반  • 2025-11-22 20:28:55</div>
         </div>
 
         <div class="nav-menu">
@@ -494,9 +494,9 @@
         </div>
 
         <div class="position-banner">
-            <h2>📉 포지션 방향: SHORT</h2>
-            <div class="confidence warning-score-critical">🔴 경고 점수: 7/10</div>
-            <div class="reason">손실 5/6 종목 (심각) | 평균 -2.9% (약간 나쁨) | 손절 0건 (좋음) → SHORT 강력 권장</div>
+            <h2>📈 포지션 방향: LONG</h2>
+            <div class="confidence warning-score-critical">🔴 경고 점수: 11/10</div>
+            <div class="reason">손실 5/6 종목 (심각) | 평균 -10.9% (참담) | 손절 1건 (경고) → LONG 강력 권장</div>
         </div>
 
         
@@ -505,40 +505,40 @@
             
             <div class="stats-grid">
                 <div class="stat-card">
-                    <div class="stat-value">ANIMEUSDT</div>
+                    <div class="stat-value">ALLOUSDT</div>
                     <div class="stat-label">종목명</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value position-badge position-short">SHORT</div>
+                    <div class="stat-value position-badge position-long">LONG</div>
                     <div class="stat-label">포지션</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">31.0</div>
+                    <div class="stat-value">65.0</div>
                     <div class="stat-label">최종 점수</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">49.0%</div>
+                    <div class="stat-value">65.0%</div>
                     <div class="stat-label">신뢰도</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">30.7%</div>
-                    <div class="stat-label">추가상승 확률</div>
+                    <div class="stat-value">65.3%</div>
+                    <div class="stat-label">추가하락 확률</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">$0.006387</div>
+                    <div class="stat-value">$0.161300</div>
                     <div class="stat-label">현재가</div>
                 </div>
             </div>
             
             <div class="info-box">
-                <div class="info-title">🎯 LONG_POSITION_OPTIMAL 실적 기반 적응형 전략 특징</div>
+                <div class="info-title">🎯 SHORT_POSITION_OPTIMAL 실적 기반 적응형 전략 특징</div>
                 <div class="info-text">
-                    • LONG_POSITION_OPTIMAL의 최근 6개 종목 실적 분석<br>
+                    • SHORT_POSITION_OPTIMAL의 최근 6개 종목 실적 분석<br>
                     • 3가지 지표(손실 종목 비율,평균 수익률,심각한 손절 빈도)로 경고 점수 계산<br>
-                    • 7점 이상: SHORT 강력 권장<br>
-                    • 5-6점: SHORT 권장<br>
-                    • 3-4점: LONG 유지(주의)<br>
-                    • 0-2점: LONG 유지<br>
+                    • 7점 이상: LONG 강력 권장<br>
+                    • 5-6점: LONG 권장<br>
+                    • 3-4점: SHORT 유지(주의)<br>
+                    • 0-2점: SHORT 유지<br>
                     • 시장 상황에 따라 LONG과 SHORT을 유연하게 전환<br>
                     • -18% 손절/55% 익절 시스템 적용
                 </div>
@@ -548,9 +548,9 @@
         
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="section-title">📈 ANIMEUSDT 실시간 차트 (4시간봉)</h2>
+                <h2 class="section-title">📈 ALLOUSDT 실시간 차트 (4시간봉)</h2>
                 <div class="chart-controls">
-                    <a href="https://www.binance.com/en/futures/ANIME_USDT" target="_blank" class="chart-btn binance-btn">
+                    <a href="https://www.binance.com/en/futures/ALLO_USDT" target="_blank" class="chart-btn binance-btn">
                         🏦 바이낸스에서 보기
                     </a>
                 </div>
@@ -564,7 +564,7 @@
             new TradingView.widget({
                 "width": "100%",
                 "height": 800,
-                "symbol": "BINANCE:ANIMEUSDT",
+                "symbol": "BINANCE:ALLOUSDT",
                 "interval": "240",
                 "timezone": "Asia/Seoul",
                 "theme": "dark",
@@ -586,23 +586,23 @@
         
         
         <div class="history-section">
-            <h2 class="section-title">📋 24시간 성과 추적 (LONG 포지션만)</h2>
+            <h2 class="section-title">📋 24시간 성과 추적 (SHORT 포지션만)</h2>
             
             <div class="info-box">
-                <div class="info-title">📊 추적 성과 요약 (LONG 포지션)</div>
+                <div class="info-title">📊 추적 성과 요약 (SHORT 포지션)</div>
                 <div class="info-text">
-                    <strong>승률:</strong> 14.3% (2/14) | 
-                    <strong>누적 수익률:</strong> <span class="negative">-29.03%</span> | 
-                    <strong>총 추적 건수:</strong> 29건 | 
-                    <strong>🎉 익절 발동:</strong> <span class="positive">1건 (7.1%)</span> | 
-                    <strong>🛑 손절 발동:</strong> <span class="negative">0건 (0.0%)</span>
+                    <strong>승률:</strong> 68.1% (98/144) | 
+                    <strong>누적 수익률:</strong> <span class="positive">+388.19%</span> | 
+                    <strong>총 추적 건수:</strong> 150건 | 
+                    <strong>🎉 익절 발동:</strong> <span class="positive">0건 (0.0%)</span> | 
+                    <strong>🛑 손절 발동:</strong> <span class="negative">19건 (13.2%)</span>
                 </div>
             </div>
 
-            <h3 class="section-title" style="margin-top: 2rem;">📊 누적 수익률 차트 (LONG 포지션)</h3>
+            <h3 class="section-title" style="margin-top: 2rem;">📊 누적 수익률 차트 (SHORT 포지션)</h3>
             <div id="cumulativeChart" style="width: 100%; height: 500px;"></div>
 
-            <h3 class="section-title" style="margin-top: 2rem;">📋 추적 내역</h3>
+            <h3 class="section-title" style="margin-top: 2rem;">📋 24시간 성과 추적 내역</h3>
             <table class="history-table">
                 <thead>
                     <tr>
@@ -619,391 +619,1385 @@
                 <tbody>
                     
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-22 (토) 16:34</td>
-                    <td><a href="https://www.binance.com/en/futures/ANIME_USDT" target="_blank" class="symbol-link">ANIMEUSDT</a></td>
+                    <td style="font-weight: bold;">2025-11-22 (토) 16:56</td>
+                    <td><a href="https://www.binance.com/en/futures/ALLO_USDT" target="_blank" class="symbol-link">ALLOUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">31</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 5/6 종목 (심각) | 평균 -2.9% (약간 나쁨) | 손절 0건 (좋음) → SHORT 강력 권장</div></td>
+                    <td style="font-weight: bold;">65</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-pending">대기중</div></td>
+                    <td><div class="return-stats">-</div></td>
+                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-22 (토) 12:58</td>
+                    <td><a href="https://www.binance.com/en/futures/SENT_USDT" target="_blank" class="symbol-link">SENTUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">67</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-pending">대기중</div></td>
+                    <td><div class="return-stats">-</div></td>
+                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-22 (토) 08:56</td>
+                    <td><a href="https://www.binance.com/en/futures/SKYAI_USDT" target="_blank" class="symbol-link">SKYAIUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">57</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-pending">대기중</div></td>
+                    <td><div class="return-stats">-</div></td>
+                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-22 (토) 04:56</td>
+                    <td><a href="https://www.binance.com/en/futures/TNSR_USDT" target="_blank" class="symbol-link">TNSRUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">58</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-pending">대기중</div></td>
+                    <td><div class="return-stats">-</div></td>
+                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-22 (토) 00:56</td>
+                    <td><a href="https://www.binance.com/en/futures/KGEN_USDT" target="_blank" class="symbol-link">KGENUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">48</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-pending">대기중</div></td>
+                    <td><div class="return-stats">-</div></td>
+                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-21 (금) 20:57</td>
+                    <td><a href="https://www.binance.com/en/futures/NMR_USDT" target="_blank" class="symbol-link">NMRUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">63</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+14.77%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +17.60%</span><br>
+                        <span class="worst-return">최저: -2.92%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-21 (금) 16:56</td>
+                    <td><a href="https://www.binance.com/en/futures/SAGA_USDT" target="_blank" class="symbol-link">SAGAUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">54</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+13.05%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +15.58%</span><br>
+                        <span class="worst-return">최저: -0.49%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-21 (금) 12:56</td>
+                    <td><a href="https://www.binance.com/en/futures/DYM_USDT" target="_blank" class="symbol-link">DYMUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">85</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +3.48%</span><br>
+                        <span class="worst-return">최저: -25.87%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-21 (금) 08:56</td>
+                    <td><a href="https://www.binance.com/en/futures/SIGN_USDT" target="_blank" class="symbol-link">SIGNUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">53</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+6.57%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +10.48%</span><br>
+                        <span class="worst-return">최저: -4.70%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-21 (금) 04:57</td>
+                    <td><a href="https://www.binance.com/en/futures/YALA_USDT" target="_blank" class="symbol-link">YALAUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">58</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-7.28%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +0.51%</span><br>
+                        <span class="worst-return">최저: -10.65%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-21 (금) 00:56</td>
+                    <td><a href="https://www.binance.com/en/futures/CYBER_USDT" target="_blank" class="symbol-link">CYBERUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">66</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+13.34%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +16.21%</span><br>
+                        <span class="worst-return">최저: 0.77%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-20 (목) 20:59</td>
+                    <td><a href="https://www.binance.com/en/futures/SPX_USDT" target="_blank" class="symbol-link">SPXUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">70</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+19.46%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +20.96%</span><br>
+                        <span class="worst-return">최저: -0.99%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-20 (목) 16:56</td>
+                    <td><a href="https://www.binance.com/en/futures/SOPH_USDT" target="_blank" class="symbol-link">SOPHUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">54</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+10.95%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +13.30%</span><br>
+                        <span class="worst-return">최저: -1.57%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-20 (목) 12:55</td>
+                    <td><a href="https://www.binance.com/en/futures/RARE_USDT" target="_blank" class="symbol-link">RAREUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">48</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+6.33%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +8.27%</span><br>
+                        <span class="worst-return">최저: -8.85%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-20 (목) 08:55</td>
+                    <td><a href="https://www.binance.com/en/futures/SOLV_USDT" target="_blank" class="symbol-link">SOLVUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">49</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+2.08%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +2.26%</span><br>
+                        <span class="worst-return">최저: -0.43%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-20 (목) 04:56</td>
+                    <td><a href="https://www.binance.com/en/futures/MYX_USDT" target="_blank" class="symbol-link">MYXUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">49</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+14.90%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +15.47%</span><br>
+                        <span class="worst-return">최저: -5.19%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-20 (목) 00:56</td>
+                    <td><a href="https://www.binance.com/en/futures/LISTA_USDT" target="_blank" class="symbol-link">LISTAUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">42</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-2.86%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +2.91%</span><br>
+                        <span class="worst-return">최저: -4.77%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-19 (수) 20:56</td>
+                    <td><a href="https://www.binance.com/en/futures/ASTER_USDT" target="_blank" class="symbol-link">ASTERUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">42</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+1.38%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +5.28%</span><br>
+                        <span class="worst-return">최저: -3.13%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-19 (수) 18:32</td>
+                    <td><a href="https://www.binance.com/en/futures/ARC_USDT" target="_blank" class="symbol-link">ARCUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">56</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+3.47%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +6.38%</span><br>
+                        <span class="worst-return">최저: -0.38%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-19 (수) 00:56</td>
+                    <td><a href="https://www.binance.com/en/futures/AKE_USDT" target="_blank" class="symbol-link">AKEUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">84</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+5.24%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +11.54%</span><br>
+                        <span class="worst-return">최저: -8.85%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-18 (화) 20:57</td>
+                    <td><a href="https://www.binance.com/en/futures/WCT_USDT" target="_blank" class="symbol-link">WCTUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">55</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +3.05%</span><br>
+                        <span class="worst-return">최저: -19.38%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-18 (화) 16:56</td>
+                    <td><a href="https://www.binance.com/en/futures/KAITO_USDT" target="_blank" class="symbol-link">KAITOUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">50</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+5.15%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +6.49%</span><br>
+                        <span class="worst-return">최저: -1.28%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-18 (화) 13:00</td>
+                    <td><a href="https://www.binance.com/en/futures/BANANAS31_USDT" target="_blank" class="symbol-link">BANANAS31USDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">43</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+9.25%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +10.61%</span><br>
+                        <span class="worst-return">최저: -10.18%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-18 (화) 09:00</td>
+                    <td><a href="https://www.binance.com/en/futures/Q_USDT" target="_blank" class="symbol-link">QUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">59</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+8.03%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +8.56%</span><br>
+                        <span class="worst-return">최저: -1.12%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-18 (화) 04:57</td>
+                    <td><a href="https://www.binance.com/en/futures/YALA_USDT" target="_blank" class="symbol-link">YALAUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">60</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+5.48%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +13.65%</span><br>
+                        <span class="worst-return">최저: -1.86%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-18 (화) 00:56</td>
+                    <td><a href="https://www.binance.com/en/futures/FUN_USDT" target="_blank" class="symbol-link">FUNUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">70</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-0.74%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +5.50%</span><br>
+                        <span class="worst-return">최저: -2.01%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-17 (월) 20:58</td>
+                    <td><a href="https://www.binance.com/en/futures/NIL_USDT" target="_blank" class="symbol-link">NILUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">53</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-8.29%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +4.75%</span><br>
+                        <span class="worst-return">최저: -10.94%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-17 (월) 16:56</td>
+                    <td><a href="https://www.binance.com/en/futures/LIGHT_USDT" target="_blank" class="symbol-link">LIGHTUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">52</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-9.23%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +3.15%</span><br>
+                        <span class="worst-return">최저: -14.40%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-17 (월) 12:55</td>
+                    <td><a href="https://www.binance.com/en/futures/TRADOOR_USDT" target="_blank" class="symbol-link">TRADOORUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">51</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+5.27%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +8.59%</span><br>
+                        <span class="worst-return">최저: -1.50%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-17 (월) 08:55</td>
+                    <td><a href="https://www.binance.com/en/futures/BEAT_USDT" target="_blank" class="symbol-link">BEATUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">56</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+4.64%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +15.08%</span><br>
+                        <span class="worst-return">최저: -6.76%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-17 (월) 04:57</td>
+                    <td><a href="https://www.binance.com/en/futures/APR_USDT" target="_blank" class="symbol-link">APRUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">49</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+2.83%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +7.27%</span><br>
+                        <span class="worst-return">최저: -0.72%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-17 (월) 00:57</td>
+                    <td><a href="https://www.binance.com/en/futures/XMR_USDT" target="_blank" class="symbol-link">XMRUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">53</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
                     <td><div class="tracking-result tracking-failed">실패</div></td>
                     <td><div class="return-stats">-</div></td>
                     <td><span style="color: #6c757d; font-weight: bold;">실패</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-22 (토) 12:35</td>
-                    <td><a href="https://www.binance.com/en/futures/NOM_USDT" target="_blank" class="symbol-link">NOMUSDT</a></td>
+                    <td style="font-weight: bold;">2025-11-16 (일) 20:56</td>
+                    <td><a href="https://www.binance.com/en/futures/RIVER_USDT" target="_blank" class="symbol-link">RIVERUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">34</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 5/6 종목 (심각) | 평균 -2.9% (약간 나쁨) | 손절 0건 (좋음) → SHORT 강력 권장</div></td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-22 (토) 08:35</td>
-                    <td><a href="https://www.binance.com/en/futures/MITO_USDT" target="_blank" class="symbol-link">MITOUSDT</a></td>
-                    <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">24</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 5/6 종목 (심각) | 평균 -8.0% (참담) | 손절 1건 (경고) → SHORT 강력 권장</div></td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-22 (토) 04:34</td>
-                    <td><a href="https://www.binance.com/en/futures/LAYER_USDT" target="_blank" class="symbol-link">LAYERUSDT</a></td>
-                    <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">43</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 4/6 종목 (경고) | 평균 -4.6% (매우나쁨) | 손절 1건 (경고) → SHORT 강력 권장</div></td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-22 (토) 00:34</td>
-                    <td><a href="https://www.binance.com/en/futures/DEGO_USDT" target="_blank" class="symbol-link">DEGOUSDT</a></td>
-                    <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">25</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 3/6 종목 (주의) | 평균 -4.3% (매우나쁨) | 손절 2건 (위험) → SHORT 강력 권장</div></td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-21 (금) 20:36</td>
-                    <td><a href="https://www.binance.com/en/futures/0G_USDT" target="_blank" class="symbol-link">0GUSDT</a></td>
-                    <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">24</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 6/6 종목 (심각) | 평균 -10.8% (참담) | 손절 3건 (매우 위험) → SHORT 강력 권장</div></td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-21 (금) 16:34</td>
-                    <td><a href="https://www.binance.com/en/futures/TURTLE_USDT" target="_blank" class="symbol-link">TURTLEUSDT</a></td>
-                    <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">38</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 6/6 종목 (심각) | 평균 -14.7% (참담) | 손절 3건 (매우 위험) → SHORT 강력 권장</div></td>
-                    <td><div class="tracking-result tracking-profit">+8.34%</div></td>
+                    <td style="font-weight: bold;">63</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+8.81%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +10.37%</span><br>
-                        <span class="worst-return">최저: -4.05%</span>
+                        <span class="best-return">최고: +13.16%</span><br>
+                        <span class="worst-return">최저: -6.31%</span>
                     </div></td>
                     <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-21 (금) 12:35</td>
-                    <td><a href="https://www.binance.com/en/futures/42_USDT" target="_blank" class="symbol-link">42USDT</a></td>
+                    <td style="font-weight: bold;">2025-11-16 (일) 16:56</td>
+                    <td><a href="https://www.binance.com/en/futures/SKYAI_USDT" target="_blank" class="symbol-link">SKYAIUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">30</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 6/6 종목 (심각) | 평균 -7.6% (참담) | 손절 1건 (경고) → SHORT 강력 권장</div></td>
-                    <td><div class="tracking-result tracking-profit">+11.39%</div></td>
+                    <td style="font-weight: bold;">56</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+5.17%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +23.93%</span><br>
-                        <span class="worst-return">최저: 0.45%</span>
+                        <span class="best-return">최고: +8.17%</span><br>
+                        <span class="worst-return">최저: 0.00%</span>
                     </div></td>
                     <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-21 (금) 08:35</td>
-                    <td><a href="https://www.binance.com/en/futures/HANA_USDT" target="_blank" class="symbol-link">HANAUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">40</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 3/6 종목 (주의) | 평균 0.8% (좋음) | 손절 0건 (좋음) → LONG 유지 (정상 범위)</div></td>
-                    <td><div class="tracking-result tracking-loss">-0.17%</div></td>
-                    <td><div class="return-stats">
-                        <span class="best-return">최고: +11.26%</span><br>
-                        <span class="worst-return">최저: -10.92%</span>
-                    </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-21 (금) 04:34</td>
-                    <td><a href="https://www.binance.com/en/futures/ACT_USDT" target="_blank" class="symbol-link">ACTUSDT</a></td>
+                    <td style="font-weight: bold;">2025-11-16 (일) 12:56</td>
+                    <td><a href="https://www.binance.com/en/futures/COAI_USDT" target="_blank" class="symbol-link">COAIUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">34</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 5/6 종목 (심각) | 평균 -2.4% (약간 나쁨) | 손절 0건 (좋음) → SHORT 강력 권장</div></td>
-                    <td><div class="tracking-result tracking-profit">+11.70%</div></td>
+                    <td style="font-weight: bold;">61</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+7.63%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +18.23%</span><br>
-                        <span class="worst-return">최저: -9.61%</span>
+                        <span class="best-return">최고: +13.26%</span><br>
+                        <span class="worst-return">최저: 0.00%</span>
                     </div></td>
                     <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-21 (금) 00:41</td>
-                    <td><a href="https://www.binance.com/en/futures/FOLKS_USDT" target="_blank" class="symbol-link">FOLKSUSDT</a></td>
+                    <td style="font-weight: bold;">2025-11-16 (일) 08:56</td>
+                    <td><a href="https://www.binance.com/en/futures/LA_USDT" target="_blank" class="symbol-link">LAUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">27</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 5/6 종목 (심각) | 평균 -1.5% (나쁨) | 손절 0건 (좋음) → SHORT 권장</div></td>
-                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td style="font-weight: bold;">61</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+7.51%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +-1.32%</span><br>
-                        <span class="worst-return">최저: -19.10%</span>
+                        <span class="best-return">최고: +14.36%</span><br>
+                        <span class="worst-return">최저: -11.83%</span>
                     </div></td>
-                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-20 (목) 20:36</td>
-                    <td><a href="https://www.binance.com/en/futures/NXPC_USDT" target="_blank" class="symbol-link">NXPCUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">24</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 3/6 종목 (주의) | 평균 1.8% (좋음) | 손절 0건 (좋음) → LONG 유지 (정상 범위)</div></td>
-                    <td><div class="tracking-result tracking-loss">-5.36%</div></td>
-                    <td><div class="return-stats">
-                        <span class="best-return">최고: +1.23%</span><br>
-                        <span class="worst-return">최저: -9.87%</span>
-                    </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-20 (목) 16:35</td>
-                    <td><a href="https://www.binance.com/en/futures/GLM_USDT" target="_blank" class="symbol-link">GLMUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
+                    <td style="font-weight: bold;">2025-11-16 (일) 04:55</td>
+                    <td><a href="https://www.binance.com/en/futures/AT_USDT" target="_blank" class="symbol-link">ATUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
                     <td style="font-weight: bold;">35</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 1/6 종목 (정상) | 평균 3.2% (좋음) | 손절 0건 (좋음) → LONG 유지 (정상 범위)</div></td>
-                    <td><div class="tracking-result tracking-loss">-15.52%</div></td>
-                    <td><div class="return-stats">
-                        <span class="best-return">최고: +0.12%</span><br>
-                        <span class="worst-return">최저: -15.52%</span>
-                    </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-20 (목) 12:34</td>
-                    <td><a href="https://www.binance.com/en/futures/AGT_USDT" target="_blank" class="symbol-link">AGTUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">35</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 2/6 종목 (정상) | 평균 4.9% (좋음) | 손절 0건 (좋음) → LONG 유지 (정상 범위)</div></td>
-                    <td><div class="tracking-result tracking-loss">-7.24%</div></td>
-                    <td><div class="return-stats">
-                        <span class="best-return">최고: +1.45%</span><br>
-                        <span class="worst-return">최저: -8.11%</span>
-                    </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-20 (목) 08:34</td>
-                    <td><a href="https://www.binance.com/en/futures/AKE_USDT" target="_blank" class="symbol-link">AKEUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">35</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 2/6 종목 (정상) | 평균 -1.6% (나쁨) | 손절 0건 (좋음) → LONG 유지 (정상 범위)</div></td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
                     <td><div class="tracking-result tracking-profit">+1.29%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +23.87%</span><br>
-                        <span class="worst-return">최저: -8.54%</span>
+                        <span class="best-return">최고: +7.11%</span><br>
+                        <span class="worst-return">최저: -6.99%</span>
                     </div></td>
                     <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-20 (목) 04:34</td>
-                    <td><a href="https://www.binance.com/en/futures/DUSK_USDT" target="_blank" class="symbol-link">DUSKUSDT</a></td>
+                    <td style="font-weight: bold;">2025-11-16 (일) 00:56</td>
+                    <td><a href="https://www.binance.com/en/futures/ZEN_USDT" target="_blank" class="symbol-link">ZENUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">35</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 4/6 종목 (경고) | 평균 -3.0% (약간 나쁨) | 손절 0건 (좋음) → SHORT 권장</div></td>
-                    <td><div class="tracking-result tracking-profit">+1.60%</div></td>
+                    <td style="font-weight: bold;">59</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-0.23%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +7.55%</span><br>
-                        <span class="worst-return">최저: -10.28%</span>
+                        <span class="best-return">최고: +4.80%</span><br>
+                        <span class="worst-return">최저: -4.90%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-15 (토) 20:57</td>
+                    <td><a href="https://www.binance.com/en/futures/ZEC_USDT" target="_blank" class="symbol-link">ZECUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">54</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-8.75%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +1.91%</span><br>
+                        <span class="worst-return">최저: -11.49%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-15 (토) 16:55</td>
+                    <td><a href="https://www.binance.com/en/futures/CC_USDT" target="_blank" class="symbol-link">CCUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">55</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+0.09%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +1.61%</span><br>
+                        <span class="worst-return">최저: -3.13%</span>
                     </div></td>
                     <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-20 (목) 00:34</td>
-                    <td><a href="https://www.binance.com/en/futures/BEAT_USDT" target="_blank" class="symbol-link">BEATUSDT</a></td>
+                    <td style="font-weight: bold;">2025-11-15 (토) 12:59</td>
+                    <td><a href="https://www.binance.com/en/futures/TAC_USDT" target="_blank" class="symbol-link">TACUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">34</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 4/6 종목 (경고) | 평균 -3.2% (나쁨) | 손절 0건 (좋음) → SHORT 강력 권장</div></td>
+                    <td style="font-weight: bold;">58</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+4.71%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +6.93%</span><br>
+                        <span class="worst-return">최저: -6.34%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-15 (토) 08:55</td>
+                    <td><a href="https://www.binance.com/en/futures/STRK_USDT" target="_blank" class="symbol-link">STRKUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">59</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
                     <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +0.80%</span><br>
-                        <span class="worst-return">최저: -18.21%</span>
+                        <span class="best-return">최고: +5.27%</span><br>
+                        <span class="worst-return">최저: -19.08%</span>
                     </div></td>
                     <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-19 (수) 20:43</td>
-                    <td><a href="https://www.binance.com/en/futures/STRK_USDT" target="_blank" class="symbol-link">STRKUSDT</a></td>
+                    <td style="font-weight: bold;">2025-11-15 (토) 04:55</td>
+                    <td><a href="https://www.binance.com/en/futures/APR_USDT" target="_blank" class="symbol-link">APRUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">32</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 4/6 종목 (경고) | 평균 -1.4% (나쁨) | 손절 0건 (좋음) → SHORT 권장</div></td>
-                    <td><div class="tracking-result tracking-loss">-4.05%</div></td>
+                    <td style="font-weight: bold;">50</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+9.45%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +1.07%</span><br>
-                        <span class="worst-return">최저: -14.66%</span>
-                    </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-19 (수) 00:35</td>
-                    <td><a href="https://www.binance.com/en/futures/KGEN_USDT" target="_blank" class="symbol-link">KGENUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">46</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 4/6 종목 (경고) | 평균 4.4% (좋음) | 손절 0건 (좋음) → LONG 유지 (주의 필요)</div></td>
-                    <td><div class="tracking-result tracking-loss">-5.88%</div></td>
-                    <td><div class="return-stats">
-                        <span class="best-return">최고: +-0.20%</span><br>
-                        <span class="worst-return">최저: -7.75%</span>
-                    </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-18 (화) 20:36</td>
-                    <td><a href="https://www.binance.com/en/futures/MET_USDT" target="_blank" class="symbol-link">METUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">37</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 3/6 종목 (주의) | 평균 -2.4% (약간 나쁨) | 손절 0건 (좋음) → LONG 유지 (주의 필요)</div></td>
-                    <td><div class="tracking-result tracking-loss">-12.44%</div></td>
-                    <td><div class="return-stats">
-                        <span class="best-return">최고: +1.84%</span><br>
-                        <span class="worst-return">최저: -14.51%</span>
-                    </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-18 (화) 16:41</td>
-                    <td><a href="https://www.binance.com/en/futures/FARTCOIN_USDT" target="_blank" class="symbol-link">FARTCOINUSDT</a></td>
-                    <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">45</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 5/6 종목 (심각) | 평균 -4.2% (매우나쁨) | 손절 0건 (좋음) → SHORT 강력 권장</div></td>
-                    <td><div class="tracking-result tracking-profit">+3.01%</div></td>
-                    <td><div class="return-stats">
-                        <span class="best-return">최고: +6.21%</span><br>
-                        <span class="worst-return">최저: -2.08%</span>
+                        <span class="best-return">최고: +10.34%</span><br>
+                        <span class="worst-return">최저: -0.07%</span>
                     </div></td>
                     <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-18 (화) 08:37</td>
-                    <td><a href="https://www.binance.com/en/futures/XAN_USDT" target="_blank" class="symbol-link">XANUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">18</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 4/6 종목 (경고) | 평균 -4.3% (부진) → LONG 유지 (주의 필요)</div></td>
-                    <td><div class="tracking-result tracking-takeprofit">🎉 익절 +55.00%</div></td>
-                    <td><div class="return-stats">
-                        <span class="best-return">최고: +59.70%</span><br>
-                        <span class="worst-return">최저: -7.06%</span>
-                    </div></td>
-                    <td><span style="color: #28a745; font-weight: 900; font-size: 1.3rem;">🎉 익절</span></td>
-                </tr>
-            
-                <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-18 (화) 04:35</td>
-                    <td><a href="https://www.binance.com/en/futures/OBOL_USDT" target="_blank" class="symbol-link">OBOLUSDT</a></td>
+                    <td style="font-weight: bold;">2025-11-15 (토) 00:55</td>
+                    <td><a href="https://www.binance.com/en/futures/HIPPO_USDT" target="_blank" class="symbol-link">HIPPOUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
-                    <td style="font-weight: bold;">31</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 5/6 종목 (심각) | 평균 -5.7% (나쁨) → SHORT 권장</div></td>
-                    <td><div class="tracking-result tracking-loss">-12.07%</div></td>
+                    <td style="font-weight: bold;">77</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+19.35%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +0.81%</span><br>
-                        <span class="worst-return">최저: -13.81%</span>
+                        <span class="best-return">최고: +19.54%</span><br>
+                        <span class="worst-return">최저: -3.66%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-14 (금) 20:56</td>
+                    <td><a href="https://www.binance.com/en/futures/RVV_USDT" target="_blank" class="symbol-link">RVVUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">55</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+3.95%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +6.07%</span><br>
+                        <span class="worst-return">최저: -3.62%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-14 (금) 16:57</td>
+                    <td><a href="https://www.binance.com/en/futures/ARC_USDT" target="_blank" class="symbol-link">ARCUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">59</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+3.24%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +7.12%</span><br>
+                        <span class="worst-return">최저: -6.30%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-14 (금) 12:55</td>
+                    <td><a href="https://www.binance.com/en/futures/MLN_USDT" target="_blank" class="symbol-link">MLNUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">43</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+0.14%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +5.20%</span><br>
+                        <span class="worst-return">최저: -2.23%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-14 (금) 08:55</td>
+                    <td><a href="https://www.binance.com/en/futures/VELVET_USDT" target="_blank" class="symbol-link">VELVETUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">48</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+13.16%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +14.95%</span><br>
+                        <span class="worst-return">최저: 1.61%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-14 (금) 04:56</td>
+                    <td><a href="https://www.binance.com/en/futures/ZEREBRO_USDT" target="_blank" class="symbol-link">ZEREBROUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">68</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+1.96%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +5.59%</span><br>
+                        <span class="worst-return">최저: -2.93%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-14 (금) 00:56</td>
+                    <td><a href="https://www.binance.com/en/futures/ZORA_USDT" target="_blank" class="symbol-link">ZORAUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">71</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+9.94%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +11.97%</span><br>
+                        <span class="worst-return">최저: 1.60%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-13 (목) 20:57</td>
+                    <td><a href="https://www.binance.com/en/futures/MYX_USDT" target="_blank" class="symbol-link">MYXUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">46</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+12.02%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +12.51%</span><br>
+                        <span class="worst-return">최저: -1.21%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-13 (목) 16:55</td>
+                    <td><a href="https://www.binance.com/en/futures/1000000BOB_USDT" target="_blank" class="symbol-link">1000000BOBUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">64</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+16.89%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +28.79%</span><br>
+                        <span class="worst-return">최저: -1.03%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-13 (목) 12:55</td>
+                    <td><a href="https://www.binance.com/en/futures/STBL_USDT" target="_blank" class="symbol-link">STBLUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">56</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+17.37%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +20.24%</span><br>
+                        <span class="worst-return">최저: -4.11%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-13 (목) 08:55</td>
+                    <td><a href="https://www.binance.com/en/futures/RENDER_USDT" target="_blank" class="symbol-link">RENDERUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">59</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-0.52%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +6.16%</span><br>
+                        <span class="worst-return">최저: -7.23%</span>
                     </div></td>
                     <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-18 (화) 00:35</td>
-                    <td><a href="https://www.binance.com/en/futures/LA_USDT" target="_blank" class="symbol-link">LAUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">30</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 4/6 종목 (경고) | 평균 -3.5% (부진) → LONG 유지 (주의 필요)</div></td>
-                    <td><div class="tracking-result tracking-loss">-8.35%</div></td>
+                    <td style="font-weight: bold;">2025-11-13 (목) 04:56</td>
+                    <td><a href="https://www.binance.com/en/futures/VELODROME_USDT" target="_blank" class="symbol-link">VELODROMEUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">58</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+19.93%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +1.74%</span><br>
-                        <span class="worst-return">최저: -10.57%</span>
+                        <span class="best-return">최고: +19.93%</span><br>
+                        <span class="worst-return">최저: -0.64%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-13 (목) 00:58</td>
+                    <td><a href="https://www.binance.com/en/futures/LSK_USDT" target="_blank" class="symbol-link">LSKUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">62</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+19.62%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +19.95%</span><br>
+                        <span class="worst-return">최저: -3.67%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-12 (수) 20:56</td>
+                    <td><a href="https://www.binance.com/en/futures/TAG_USDT" target="_blank" class="symbol-link">TAGUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">50</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +5.03%</span><br>
+                        <span class="worst-return">최저: -16.52%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-12 (수) 16:55</td>
+                    <td><a href="https://www.binance.com/en/futures/XPIN_USDT" target="_blank" class="symbol-link">XPINUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">50</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+13.44%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +14.88%</span><br>
+                        <span class="worst-return">최저: 3.01%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-12 (수) 12:55</td>
+                    <td><a href="https://www.binance.com/en/futures/APR_USDT" target="_blank" class="symbol-link">APRUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">49</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+6.36%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +8.89%</span><br>
+                        <span class="worst-return">최저: -2.46%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-12 (수) 08:56</td>
+                    <td><a href="https://www.binance.com/en/futures/SIREN_USDT" target="_blank" class="symbol-link">SIRENUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">59</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+13.03%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +14.59%</span><br>
+                        <span class="worst-return">최저: -1.86%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-12 (수) 04:56</td>
+                    <td><a href="https://www.binance.com/en/futures/TA_USDT" target="_blank" class="symbol-link">TAUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">59</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+3.89%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +7.66%</span><br>
+                        <span class="worst-return">최저: -0.87%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-12 (수) 00:56</td>
+                    <td><a href="https://www.binance.com/en/futures/JUP_USDT" target="_blank" class="symbol-link">JUPUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">54</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+3.29%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +4.30%</span><br>
+                        <span class="worst-return">최저: -0.89%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-11 (화) 20:57</td>
+                    <td><a href="https://www.binance.com/en/futures/COTI_USDT" target="_blank" class="symbol-link">COTIUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">50</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+1.32%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +5.98%</span><br>
+                        <span class="worst-return">최저: -5.08%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-11 (화) 16:55</td>
+                    <td><a href="https://www.binance.com/en/futures/ALCH_USDT" target="_blank" class="symbol-link">ALCHUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">58</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-6.28%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +2.27%</span><br>
+                        <span class="worst-return">최저: -7.53%</span>
                     </div></td>
                     <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-17 (월) 20:35</td>
-                    <td><a href="https://www.binance.com/en/futures/TRUTH_USDT" target="_blank" class="symbol-link">TRUTHUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">27</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">정상 범위 → LONG 유지</div></td>
-                    <td><div class="tracking-result tracking-loss">-10.86%</div></td>
+                    <td style="font-weight: bold;">2025-11-11 (화) 12:55</td>
+                    <td><a href="https://www.binance.com/en/futures/LUMIA_USDT" target="_blank" class="symbol-link">LUMIAUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">62</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+3.32%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +3.24%</span><br>
-                        <span class="worst-return">최저: -12.43%</span>
+                        <span class="best-return">최고: +6.88%</span><br>
+                        <span class="worst-return">최저: -0.24%</span>
                     </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-17 (월) 16:36</td>
-                    <td><a href="https://www.binance.com/en/futures/PROMPT_USDT" target="_blank" class="symbol-link">PROMPTUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">23</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">정상 범위 → LONG 유지</div></td>
-                    <td><div class="tracking-result tracking-loss">-10.47%</div></td>
+                    <td style="font-weight: bold;">2025-11-11 (화) 08:55</td>
+                    <td><a href="https://www.binance.com/en/futures/WLFI_USDT" target="_blank" class="symbol-link">WLFIUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">68</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+2.59%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +1.64%</span><br>
-                        <span class="worst-return">최저: -12.94%</span>
+                        <span class="best-return">최고: +4.99%</span><br>
+                        <span class="worst-return">최저: -3.24%</span>
                     </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-17 (월) 12:35</td>
-                    <td><a href="https://www.binance.com/en/futures/ENSO_USDT" target="_blank" class="symbol-link">ENSOUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">32</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">정상 범위 → LONG 유지</div></td>
-                    <td><div class="tracking-result tracking-loss">-4.45%</div></td>
+                    <td style="font-weight: bold;">2025-11-11 (화) 04:55</td>
+                    <td><a href="https://www.binance.com/en/futures/STRK_USDT" target="_blank" class="symbol-link">STRKUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">60</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+14.97%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +1.17%</span><br>
-                        <span class="worst-return">최저: -8.59%</span>
+                        <span class="best-return">최고: +14.97%</span><br>
+                        <span class="worst-return">최저: -1.05%</span>
                     </div></td>
-                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-17 (월) 08:35</td>
+                    <td style="font-weight: bold;">2025-11-11 (화) 00:55</td>
+                    <td><a href="https://www.binance.com/en/futures/KAVA_USDT" target="_blank" class="symbol-link">KAVAUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">54</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+5.87%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +6.56%</span><br>
+                        <span class="worst-return">최저: -5.06%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-10 (월) 21:26</td>
+                    <td><a href="https://www.binance.com/en/futures/NEAR_USDT" target="_blank" class="symbol-link">NEARUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">61</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+7.94%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +8.46%</span><br>
+                        <span class="worst-return">최저: -0.03%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-10 (월) 16:50</td>
+                    <td><a href="https://www.binance.com/en/futures/COTI_USDT" target="_blank" class="symbol-link">COTIUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">66</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+14.10%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +16.32%</span><br>
+                        <span class="worst-return">최저: -5.73%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-10 (월) 12:50</td>
                     <td><a href="https://www.binance.com/en/futures/ESPORTS_USDT" target="_blank" class="symbol-link">ESPORTSUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">27</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">정상 범위 → LONG 유지</div></td>
-                    <td><div class="tracking-result tracking-loss">-2.84%</div></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">51</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +2.55%</span><br>
-                        <span class="worst-return">최저: -4.41%</span>
+                        <span class="best-return">최고: +3.57%</span><br>
+                        <span class="worst-return">최저: -16.33%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-10 (월) 08:50</td>
+                    <td><a href="https://www.binance.com/en/futures/UAI_USDT" target="_blank" class="symbol-link">UAIUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">54</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+6.80%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +15.40%</span><br>
+                        <span class="worst-return">최저: -7.44%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-10 (월) 04:50</td>
+                    <td><a href="https://www.binance.com/en/futures/FOLKS_USDT" target="_blank" class="symbol-link">FOLKSUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">46</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+6.85%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +15.85%</span><br>
+                        <span class="worst-return">최저: -3.09%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-09 (일) 20:51</td>
+                    <td><a href="https://www.binance.com/en/futures/0G_USDT" target="_blank" class="symbol-link">0GUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">61</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +0.45%</span><br>
+                        <span class="worst-return">최저: -18.56%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-09 (일) 16:53</td>
+                    <td><a href="https://www.binance.com/en/futures/FET_USDT" target="_blank" class="symbol-link">FETUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">77</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +1.84%</span><br>
+                        <span class="worst-return">최저: -18.30%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-09 (일) 12:53</td>
+                    <td><a href="https://www.binance.com/en/futures/ALICE_USDT" target="_blank" class="symbol-link">ALICEUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">65</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+1.94%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +4.69%</span><br>
+                        <span class="worst-return">최저: -5.89%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-09 (일) 08:50</td>
+                    <td><a href="https://www.binance.com/en/futures/ACE_USDT" target="_blank" class="symbol-link">ACEUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">50</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+0.49%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +7.12%</span><br>
+                        <span class="worst-return">최저: -2.30%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-09 (일) 04:50</td>
+                    <td><a href="https://www.binance.com/en/futures/FIL_USDT" target="_blank" class="symbol-link">FILUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">59</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+0.07%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +11.06%</span><br>
+                        <span class="worst-return">최저: -11.28%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-09 (일) 00:52</td>
+                    <td><a href="https://www.binance.com/en/futures/JELLYJELLY_USDT" target="_blank" class="symbol-link">JELLYJELLYUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">71</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +0.24%</span><br>
+                        <span class="worst-return">최저: -16.69%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-08 (토) 20:51</td>
+                    <td><a href="https://www.binance.com/en/futures/ONE_USDT" target="_blank" class="symbol-link">ONEUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">72</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+5.56%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +7.58%</span><br>
+                        <span class="worst-return">최저: -0.67%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-08 (토) 16:54</td>
+                    <td><a href="https://www.binance.com/en/futures/LUMIA_USDT" target="_blank" class="symbol-link">LUMIAUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">72</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+6.62%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +9.45%</span><br>
+                        <span class="worst-return">최저: -3.57%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-08 (토) 12:50</td>
+                    <td><a href="https://www.binance.com/en/futures/COTI_USDT" target="_blank" class="symbol-link">COTIUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">71</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+7.21%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +8.06%</span><br>
+                        <span class="worst-return">최저: -1.07%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-08 (토) 08:50</td>
+                    <td><a href="https://www.binance.com/en/futures/DUSK_USDT" target="_blank" class="symbol-link">DUSKUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">66</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+15.89%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +16.46%</span><br>
+                        <span class="worst-return">최저: -2.23%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-08 (토) 04:50</td>
+                    <td><a href="https://www.binance.com/en/futures/KGEN_USDT" target="_blank" class="symbol-link">KGENUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">56</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+7.78%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +8.17%</span><br>
+                        <span class="worst-return">최저: -1.41%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-08 (토) 00:59</td>
+                    <td><a href="https://www.binance.com/en/futures/PROMPT_USDT" target="_blank" class="symbol-link">PROMPTUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">76</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+3.53%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +8.56%</span><br>
+                        <span class="worst-return">최저: -7.36%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-07 (금) 20:50</td>
+                    <td><a href="https://www.binance.com/en/futures/PARTI_USDT" target="_blank" class="symbol-link">PARTIUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">54</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +1.46%</span><br>
+                        <span class="worst-return">최저: -18.05%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-07 (금) 16:50</td>
+                    <td><a href="https://www.binance.com/en/futures/ETHW_USDT" target="_blank" class="symbol-link">ETHWUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">69</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-6.59%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +4.75%</span><br>
+                        <span class="worst-return">최저: -13.94%</span>
                     </div></td>
                     <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
-                    <td style="font-weight: bold;">2025-11-17 (월) 04:35</td>
-                    <td><a href="https://www.binance.com/en/futures/NIL_USDT" target="_blank" class="symbol-link">NILUSDT</a></td>
-                    <td><span class="position-badge position-long">LONG</span></td>
-                    <td style="font-weight: bold;">27</td>
-                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">정상 범위 → LONG 유지</div></td>
-                    <td><div class="tracking-result tracking-loss">-1.74%</div></td>
+                    <td style="font-weight: bold;">2025-11-07 (금) 12:50</td>
+                    <td><a href="https://www.binance.com/en/futures/XAN_USDT" target="_blank" class="symbol-link">XANUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">40</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-1.68%</div></td>
                     <td><div class="return-stats">
-                        <span class="best-return">최고: +10.99%</span><br>
-                        <span class="worst-return">최저: -2.70%</span>
+                        <span class="best-return">최고: +4.88%</span><br>
+                        <span class="worst-return">최저: -6.22%</span>
                     </div></td>
                     <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-07 (금) 08:50</td>
+                    <td><a href="https://www.binance.com/en/futures/PROM_USDT" target="_blank" class="symbol-link">PROMUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">50</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+11.53%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +11.97%</span><br>
+                        <span class="worst-return">최저: -1.82%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-07 (금) 04:50</td>
+                    <td><a href="https://www.binance.com/en/futures/SONIC_USDT" target="_blank" class="symbol-link">SONICUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">61</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-12.37%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +0.61%</span><br>
+                        <span class="worst-return">최저: -12.80%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-07 (금) 00:51</td>
+                    <td><a href="https://www.binance.com/en/futures/QNT_USDT" target="_blank" class="symbol-link">QNTUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">60</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+2.02%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +3.78%</span><br>
+                        <span class="worst-return">최저: -1.34%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-06 (목) 21:53</td>
+                    <td><a href="https://www.binance.com/en/futures/USUAL_USDT" target="_blank" class="symbol-link">USUALUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">78</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-0.22%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +2.63%</span><br>
+                        <span class="worst-return">최저: -9.74%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-06 (목) 16:52</td>
+                    <td><a href="https://www.binance.com/en/futures/GIGGLE_USDT" target="_blank" class="symbol-link">GIGGLEUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">74</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +3.55%</span><br>
+                        <span class="worst-return">최저: -19.70%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-06 (목) 13:03</td>
+                    <td><a href="https://www.binance.com/en/futures/CUDIS_USDT" target="_blank" class="symbol-link">CUDISUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">97</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+18.92%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +24.14%</span><br>
+                        <span class="worst-return">최저: -8.91%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-06 (목) 08:50</td>
+                    <td><a href="https://www.binance.com/en/futures/ZK_USDT" target="_blank" class="symbol-link">ZKUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">67</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+9.66%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +13.31%</span><br>
+                        <span class="worst-return">최저: 0.37%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-06 (목) 04:50</td>
+                    <td><a href="https://www.binance.com/en/futures/BANK_USDT" target="_blank" class="symbol-link">BANKUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">48</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+13.25%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +23.66%</span><br>
+                        <span class="worst-return">최저: -1.06%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-06 (목) 00:51</td>
+                    <td><a href="https://www.binance.com/en/futures/RESOLV_USDT" target="_blank" class="symbol-link">RESOLVUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">48</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +2.93%</span><br>
+                        <span class="worst-return">최저: -18.58%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-05 (수) 20:54</td>
+                    <td><a href="https://www.binance.com/en/futures/BTR_USDT" target="_blank" class="symbol-link">BTRUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">60</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-4.21%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +0.85%</span><br>
+                        <span class="worst-return">최저: -11.06%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-05 (수) 16:50</td>
+                    <td><a href="https://www.binance.com/en/futures/MON_USDT" target="_blank" class="symbol-link">MONUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">89</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-loss">-5.83%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +2.77%</span><br>
+                        <span class="worst-return">최저: -13.47%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-05 (수) 12:49</td>
+                    <td><a href="https://www.binance.com/en/futures/JELLYJELLY_USDT" target="_blank" class="symbol-link">JELLYJELLYUSDT</a></td>
+                    <td><span class="position-badge position-short">SHORT</span></td>
+                    <td style="font-weight: bold;">97</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">None</div></td>
+                    <td><div class="tracking-result tracking-profit">+27.64%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +27.64%</span><br>
+                        <span class="worst-return">최저: -6.16%</span>
+                    </div></td>
+                    <td><span style="color: #28a745; font-weight: bold;">완료</span></td>
                 </tr>
             
                 </tbody>
@@ -1012,11 +2006,11 @@
         
         <script>
             
-            const dates = ["2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21"];
-            const opens = [0, -30.36, 3.85, -2.03, -28.86];
-            const highs = [0, 16.3, 3.85, -0.74, -28.86];
-            const lows = [-30.36, -38.7, -2.03, -28.86, -29.03];
-            const closes = [-30.36, 3.85, -2.03, -28.86, -29.03];
+            const dates = ["2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-01", "2025-11-02", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-08", "2025-11-09", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-15", "2025-11-16", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21"];
+            const opens = [0, 30.83, 26.68, 52.57, 61.87, 76.69, 95.35, 130.57, 101.66, 108.59, 114.2, 89.11, 135.69, 84.2, 101.88, 123.68, 145.69, 231.0, 263.39, 270.24, 300.41, 295.62, 304.8, 314.89, 365.75];
+            const highs = [30.83, 40.28, 52.57, 61.87, 95.3, 95.35, 131.41, 130.57, 118.64, 132.43, 116.22, 135.69, 135.69, 101.88, 128.64, 163.69, 231.0, 263.39, 292.2, 300.41, 313.15, 322.8, 314.89, 365.75, 388.19];
+            const lows = [0, 22.28, 26.68, 38.12, 61.87, 64.44, 95.35, 92.17, 83.66, 90.59, 89.11, 89.11, 84.2, 79.84, 101.88, 123.68, 145.69, 231.0, 263.39, 270.01, 295.62, 294.89, 304.8, 312.03, 360.38];
+            const closes = [30.83, 26.68, 52.57, 61.87, 76.69, 95.35, 130.57, 101.66, 108.59, 114.2, 89.11, 135.69, 84.2, 101.88, 123.68, 145.69, 231.0, 263.39, 270.24, 300.41, 295.62, 304.8, 314.89, 365.75, 388.19];
             
             // 캔들스틱 차트
             const candlestick = {
