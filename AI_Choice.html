@@ -115,7 +115,7 @@
         }
 
         .position-banner {
-            background: linear-gradient(135deg, #28a745, #28a745dd);
+            background: linear-gradient(135deg, #dc3545, #dc3545dd);
             color: white;
             padding: 2rem;
             border-radius: 15px;
@@ -481,7 +481,7 @@
     <div class="container">
         <div class="header">
             <h1>🔄 SHORT_POSITION_OPTIMAL 실적 기반 적응형 포지션 시스템</h1>
-            <div class="subtitle">SHORT_POSITION_OPTIMAL 실적 기반  • 2025-11-27 00:57:26</div>
+            <div class="subtitle">SHORT_POSITION_OPTIMAL 실적 기반  • 2025-11-27 04:56:22</div>
         </div>
 
         <div class="nav-menu">
@@ -494,9 +494,9 @@
         </div>
 
         <div class="position-banner">
-            <h2>📉 포지션 방향: SHORT</h2>
-            <div class="confidence warning-score-safe">🟢 경고 점수: 0/10</div>
-            <div class="reason">손실 2/6 종목 (정상) | 평균 1.4% (좋음) | 손절 0건 (좋음) → SHORT 유지 (정상 범위)</div>
+            <h2>📈 포지션 방향: LONG</h2>
+            <div class="confidence warning-score-critical">🔴 경고 점수: 11/10</div>
+            <div class="reason">손실 5/6 종목 (심각) | 평균 -7.0% (참담) | 손절 1건 (경고) → LONG 강력 권장</div>
         </div>
 
         
@@ -505,27 +505,27 @@
             
             <div class="stats-grid">
                 <div class="stat-card">
-                    <div class="stat-value">IPUSDT</div>
+                    <div class="stat-value">TAUSDT</div>
                     <div class="stat-label">종목명</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value position-badge position-short">SHORT</div>
+                    <div class="stat-value position-badge position-long">LONG</div>
                     <div class="stat-label">포지션</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">51.0</div>
+                    <div class="stat-value">56.0</div>
                     <div class="stat-label">최종 점수</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">51.0%</div>
+                    <div class="stat-value">56.0%</div>
                     <div class="stat-label">신뢰도</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">51.3%</div>
+                    <div class="stat-value">55.6%</div>
                     <div class="stat-label">추가하락 확률</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">$2.619000</div>
+                    <div class="stat-value">$0.030800</div>
                     <div class="stat-label">현재가</div>
                 </div>
             </div>
@@ -548,9 +548,9 @@
         
         <div class="chart-section">
             <div class="chart-header">
-                <h2 class="section-title">📈 IPUSDT 실시간 차트 (4시간봉)</h2>
+                <h2 class="section-title">📈 TAUSDT 실시간 차트 (4시간봉)</h2>
                 <div class="chart-controls">
-                    <a href="https://www.binance.com/en/futures/IP_USDT" target="_blank" class="chart-btn binance-btn">
+                    <a href="https://www.binance.com/en/futures/TA_USDT" target="_blank" class="chart-btn binance-btn">
                         🏦 바이낸스에서 보기
                     </a>
                 </div>
@@ -564,7 +564,7 @@
             new TradingView.widget({
                 "width": "100%",
                 "height": 800,
-                "symbol": "BINANCE:IPUSDT",
+                "symbol": "BINANCE:TAUSDT",
                 "interval": "240",
                 "timezone": "Asia/Seoul",
                 "theme": "dark",
@@ -591,11 +591,11 @@
             <div class="info-box">
                 <div class="info-title">📊 추적 성과 요약 (SHORT 포지션)</div>
                 <div class="info-text">
-                    <strong>승률:</strong> 62.5% (10/16) | 
-                    <strong>누적 수익률:</strong> <span class="positive">+19.44%</span> | 
-                    <strong>총 추적 건수:</strong> 26건 | 
+                    <strong>승률:</strong> 55.6% (10/18) | 
+                    <strong>누적 수익률:</strong> <span class="negative">-0.12%</span> | 
+                    <strong>총 추적 건수:</strong> 27건 | 
                     <strong>🎉 익절 발동:</strong> <span class="positive">0건 (0.0%)</span> | 
-                    <strong>🛑 손절 발동:</strong> <span class="negative">1건 (6.2%)</span>
+                    <strong>🛑 손절 발동:</strong> <span class="negative">2건 (11.1%)</span>
                 </div>
             </div>
 
@@ -619,14 +619,25 @@
                 <tbody>
                     
                 <tr style="font-size: 1.2rem;">
+                    <td style="font-weight: bold;">2025-11-27 (목) 04:56</td>
+                    <td><a href="https://www.binance.com/en/futures/TA_USDT" target="_blank" class="symbol-link">TAUSDT</a></td>
+                    <td><span class="position-badge position-long">LONG</span></td>
+                    <td style="font-weight: bold;">56</td>
+                    <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 5/6 종목 (심각) | 평균 -7.0% (참담) | 손절 1건 (경고) → LONG 강력 권장</div></td>
+                    <td><div class="tracking-result tracking-failed">실패</div></td>
+                    <td><div class="return-stats">-</div></td>
+                    <td><span style="color: #6c757d; font-weight: bold;">실패</span></td>
+                </tr>
+            
+                <tr style="font-size: 1.2rem;">
                     <td style="font-weight: bold;">2025-11-27 (목) 00:57</td>
                     <td><a href="https://www.binance.com/en/futures/IP_USDT" target="_blank" class="symbol-link">IPUSDT</a></td>
                     <td><span class="position-badge position-short">SHORT</span></td>
                     <td style="font-weight: bold;">51</td>
                     <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 2/6 종목 (정상) | 평균 1.4% (좋음) | 손절 0건 (좋음) → SHORT 유지 (정상 범위)</div></td>
-                    <td><div class="tracking-result tracking-failed">실패</div></td>
+                    <td><div class="tracking-result tracking-pending">대기중</div></td>
                     <td><div class="return-stats">-</div></td>
-                    <td><span style="color: #6c757d; font-weight: bold;">실패</span></td>
+                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
@@ -657,9 +668,12 @@
                     <td><span class="position-badge position-short">SHORT</span></td>
                     <td style="font-weight: bold;">90</td>
                     <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 2/6 종목 (정상) | 평균 0.3% (좋음) | 손절 0건 (좋음) → SHORT 유지 (정상 범위)</div></td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
+                    <td><div class="tracking-result tracking-stoploss">🛑 손절 -18.00%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +3.11%</span><br>
+                        <span class="worst-return">최저: -18.64%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: 900; font-size: 1.3rem;">🛑 손절</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
@@ -679,9 +693,12 @@
                     <td><span class="position-badge position-short">SHORT</span></td>
                     <td style="font-weight: bold;">59</td>
                     <td style="max-width: 300px;"><div style="font-size: 1.0rem;font-weight: bold; line-height: 1.4; color: #2c3e50;">손실 2/6 종목 (정상) | 평균 -0.7% (약간 부진) | 손절 0건 (좋음) → SHORT 유지 (정상 범위)</div></td>
-                    <td><div class="tracking-result tracking-pending">대기중</div></td>
-                    <td><div class="return-stats">-</div></td>
-                    <td><span style="color: #ffc107; font-weight: bold;">대기</span></td>
+                    <td><div class="tracking-result tracking-loss">-1.56%</div></td>
+                    <td><div class="return-stats">
+                        <span class="best-return">최고: +6.70%</span><br>
+                        <span class="worst-return">최저: -5.04%</span>
+                    </div></td>
+                    <td><span style="color: #dc3545; font-weight: bold;">완료</span></td>
                 </tr>
             
                 <tr style="font-size: 1.2rem;">
@@ -973,8 +990,8 @@
             const dates = ["2025-11-22", "2025-11-23", "2025-11-24", "2025-11-25", "2025-11-26"];
             const opens = [0, 2.58, 36.53, 10.49, 14.16];
             const highs = [2.58, 36.53, 36.53, 15.5, 19.44];
-            const lows = [0, 2.58, 10.49, 3.59, 14.16];
-            const closes = [2.58, 36.53, 10.49, 14.16, 19.44];
+            const lows = [0, 2.58, 10.49, 3.59, -0.12];
+            const closes = [2.58, 36.53, 10.49, 14.16, -0.12];
             
             // 캔들스틱 차트
             const candlestick = {
